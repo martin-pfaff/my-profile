@@ -1,0 +1,98 @@
+body {
+	background-color: rgb(242, 247, 235);
+	color: rgb(25, 25, 25);
+	font-family: 'Roboto Slab', serif;
+	font-weight: 200;
+	font-size: 17px;
+}
+
+h1, h2 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	color: rgb(110, 71, 183);
+	letter-spacing: 10px;
+	font-size: 30px;
+}
+
+h2 {
+	color: rgb(75, 164, 72);
+	letter-spacing: 2px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(110, 71, 183);
+	font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+	color: rgb(95, 43, 128);
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 750px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container{
+		width: 500px;
+	}
+}
+
+
+.card-white {
+	background-color: white
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.image-shadowed {
+	box-shadow: 5px 5px 5px grey;
+}
+
+.image-circle {
+	border-radius: 50%;
+}
+
+.btn-purple {
+	background-color: rgb(110, 71, 183);
+	color: white;
+	padding: 1px 5px;
+}
+
+.btn-purple:hover {
+	background-color: rgb(95, 43, 128);
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 5px;
+}
+
+.list-inline i {
+	font-size: 40px;
+}
+
+#introduction p {
+	margin-bottom: 20px;
+}
